@@ -1,0 +1,24 @@
+.home {
+    width: 80%;
+    overflow-x: hidden;
+    position: absolute;
+    background: rgb(37, 68, 107);
+    background: linear-gradient(
+      137deg,
+      rgba(37, 68, 107, 1) 0%,
+      rgba(4, 7, 9, 1) 100%
+    );
+}
+
+.break {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    padding: 30px;
+}
+
+h2 {
+    margin-left: 20px;
+    color: white;
+}

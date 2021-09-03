@@ -1,0 +1,20 @@
+.head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 20px;
+    margin-left: 300px;
+    margin-right: 300px;
+    color: white;
+    font-size: 10px;
+}
+
+span {
+    color: #b3b3b3;
+}
+
+.selected {
+    color: white;
+    font-weight: bold !important;
+    border-bottom:  2px #3cbf62 solid;
+}
