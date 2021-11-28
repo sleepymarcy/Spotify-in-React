@@ -1,80 +1,107 @@
 .sidebar {
-    height: 100%;
-    width: 20%;
-    position: fixed;
-    z-index: 3;
-    top: 0;
-    left: 0;
-    background-color: #060c12;
-    transition: 0.5s ease;
-    overflow-x: hidden;
-    padding-top: 20px;
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-  }
-  
-  .sidebar a {
-    display: flex;
-    text-decoration: none;
-    color: #b3b3b3;
-    font-size: 16px;
-    font-weight: bold;
-    padding: 8px 16px;
-    align-items: center;
-    gap: 16px;
-  }
-  
-  .sidebar a:hover {
-    color: white;
-  }
-  
-  .logo-box {
-    margin-bottom: 18px;
-  }
-  
-  .logo {
-    height: 50px;
-    width: 150px;
-  }
-  
-  .icon {
-    padding-right: 10px;
-  }
-  
-  .sidebar-bot {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
-    margin-top: 100%;
-  }
-  
-  .selected {
-    border-left: 2px #3cbf62 solid;
-  }
-  
-  button.btn {
-    width: 180px;
-    height: 40px;
-    border: 2px white solid;
-    border-radius: 50px;
-    margin-bottom: 20px;
-    font-weight: bold;
-  }
-  
-  button.sign-btn {
-      color: #161719;
-      background-color: white;
-  }
-  
-  button.log-btn {
-    color: white;
-    background-color: transparent;
-  }
-  
-  .p1 {
-    color: #b3b3b3;
-    font-size: 12px;
-    margin: 4px 0;
-  }  
+  height: 100%;
+  width: 20%;
+  position: fixed;
+  z-index: 3;
+  top: 0;
+  left: 0;
+  background-color: #060c12;
+  transition: 0.5s ease;
+  overflow-x: hidden;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.sidebar a {
+  display: flex;
+  text-decoration: none;
+  color: #b3b3b3;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 8px 16px;
+  align-items: center;
+  gap: 16px;
+}
+
+.sidebar a:hover {
+  color: white;
+}
+
+.logo-box {
+  margin-bottom: 18px;
+}
+
+.logo {
+  height: 50px;
+  width: 150px;
+}
+
+.icon {
+  padding-right: 10px;
+}
+
+.heart {
+  fill: currentColor;
+}
+
+.create {
+  background: currentColor;
+  align-items: center;
+  display: flex;
+  flex-shrink: 0;
+  height: 24px;
+  justify-content: center;
+  position: relative;
+  width: 24px;
+}
+
+.liked {
+  background: linear-gradient(135deg, #450af5, #c4efd9);
+  border-radius: 1px;
+  align-items: center;
+  display: flex;
+  flex-shrink: 0;
+  height: 24px;
+  justify-content: center;
+  position: relative;
+  width: 24px;
+}
+
+.sidebar-bot {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 100%;
+}
+
+.selected {
+  border-left: 2px #3cbf62 solid;
+}
+
+button.btn {
+  width: 180px;
+  height: 40px;
+  border: 2px white solid;
+  border-radius: 50px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+button.sign-btn {
+  color: #161719;
+  background-color: white;
+}
+
+button.log-btn {
+  color: white;
+  background-color: transparent;
+}
+
+.p1 {
+  color: #b3b3b3;
+  font-size: 12px;
+  margin: 4px 0;
+}
